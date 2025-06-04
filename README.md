@@ -14,7 +14,7 @@ It's designed to streamline and accelerate rigging workflows in a VFX/animation 
 - **Smart Namespace and Node Utilities**: Automates naming, node management, and scene clean-up.
 - **Scalable Geometry Binding**: Dynamically adjusts controller shapes based on asset dimensions.
 
-![Tool Preview](/ressources/demo.gif)
+![Tool Preview](/ressources/tool_demo.gif)
 
 ---
 
