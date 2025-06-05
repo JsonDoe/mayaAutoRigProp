@@ -497,7 +497,7 @@ def update_offset_matrix(node, scale_x, scale_y, scale_z):
     # Set updated offsetMatrix
     cmds.setAttr(shape_node + ".offsetMatrix", list(new_matrix), type="matrix")
 
-    print(f"✅ Updated offsetMatrix for {shape_node} with scale ({scale_x}, "
+    print(f"Updated offsetMatrix for {shape_node} with scale ({scale_x}, "
           f"{scale_y}, {scale_z}) and Translate Y = {scale_y / 2}")
 
 
@@ -593,7 +593,7 @@ def bind_skin_like_maya(node_list):
             name=f"{mesh}_skinCluster"
         )[0]
 
-        print(f"✅ SkinCluster '{skin_cluster}' created for mesh '{mesh}' with "
+        print(f"SkinCluster '{skin_cluster}' created for mesh '{mesh}' with "
               f"joints {joints}")
 
 
@@ -637,7 +637,7 @@ def bind_all_geo_to_main_joint(
     to_bind.append(main_joint)
     bind_skin_like_maya(to_bind)
     cmds.select(cl=True)
-    print("✅ All geometry bound to the main joint.")
+    print("All geometry bound to the main joint.")
 
 
 def update_task_status_to_final(asset_id):
